@@ -6,7 +6,7 @@
 
 ### Feature Importance
 
-* [Feature Importance](https://github.com/cobanov/Feature_Selection/tree/master/Feature%20Importance)
+* [Codes and Full Article](https://github.com/cobanov/Feature_Selection/tree/master/Feature%20Importance)
 * [YouTube Video](https://youtube.com/MertCobanov)
 
 #### Example
