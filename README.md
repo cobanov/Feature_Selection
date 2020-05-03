@@ -15,6 +15,17 @@ feature_imp = pd.Series(model.feature_importances_, index= X_encoded.columns)
 feature_imp.nlargest(10).plot(kind='barh')
 ```
 
+----
+### Recursive Feature Elimination
+
+* [In progress]()
+* [YouTube Video](https://youtube.com/MertCobanov)
+
+#### Example
+```python
+In progress.
+```
+
 
 ## Dataset
 [Mushroom Dataset - Kaggle](https://www.kaggle.com/uciml/mushroom-classification)
