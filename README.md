@@ -1,3 +1,16 @@
 # Feature_Selection
 
-![Thumbnail](assets/main_thumb.png)
+<p align="center"><img src="assets/main_thumb.png" width="400"></p>
+
+## Projects
+
+### Feature Importance
+```python
+feature_imp = pd.Series(model.feature_importances_, index= X_encoded.columns)
+feature_imp.nlargest(10).plot(kind='barh')
+```
+[Feature Importance](https://github.com/cobanov/Feature_Selection/tree/master/Feature%20Importance)
+[YouTube Video(https://youtube.com/MertCobanov)
+
+## Dataset
+[Mushroom Dataset - Kaggle](https://www.kaggle.com/uciml/mushroom-classification)
