@@ -7,28 +7,18 @@ Her şeye rağmen bu işlemleri tamamladığınızda dahi modelinizin iyi bir pe
 Bu yüzden bir veri bilimci veya makine öğrenmesi mühendisinin en önemli yetkinlikleri aslında bu verinin önişlemlerini gerçekten iyi yapmasından geçmektedir. Bu seride güncel olarak kullanılan Feature Selection yani öznitelik seçimlerinde kullanılan etkili metodları inceliyor olacağız. Teoride daha fazla öznitelik eklenmesi modelin gelişimi için daha iyidir fakat pratikte bunun tam tersi geçerlidir. Bu önerme aslında hem doğru hem de yanlıştır, çünkü modele getirdiğiniz her özellik bilgi taşıyan ve önemli bir parametre olması gerekir. Burada optimum değeri yakalamak önemli, tabii ki curse of dimensionality yani boyutsallığın laneti konusuna da dikkat etmemiz gerekir.
 
 Pekala boyut düşürmenin veya öznitelik azaltmanın yararları nedir:
+* Daha yüksek doğruluk oranı
+* Overfitting probleminin önüne geçmek.
+* Model eğitim süresinin kısaltılması.
+* Daha etkin bir görselleştirme
+* Daha açıklanabilir bir model.
 
-Daha yüksek doğruluk oranı
-
-Overfitting probleminin önüne geçmek.
-
-Model eğitim süresinin kısaltılması.
-
-Daha etkin bir görselleştirme
-
-Daha açıklanabilir bir model.
-
-Burada kullanacağımız veri seti "Mushroom Classification" yani "Mantar Sınıflandırma" veri seti olacak. Kullanacağımız kütüphaneler tahmin edebileceğiniz gibi 
-
-Pandas
-
-Numpy
-
-Matplotlib
-
-Seaborn
-
-Sklearn olacak.
+Burada kullanacağımız veri seti "Mushroom Classification" yani "Mantar Sınıflandırma" veri seti olacak. Kullanacağımız kütüphaneler tahmin edebileceğiniz gibi:
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Sklearn 
 
 ## Imports
 
