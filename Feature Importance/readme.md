@@ -142,6 +142,6 @@ weighted avg       0.97      0.97      0.97      2438
 
 Çok açık bir şekilde görebiliriz ki, eğitim süresi yarı yarıya inerken accuracy'den çok az kaybettik. Aslına bakarsanız bu çok küçük bir veri seti kazancımız 1 saniye kadar fakat bunu milyonlarca satıra sahip bir verisetiyle saatlerce eğittiğiniz bir model olduğunu düşünürseniz kesinlikle gireceğiniz bir tradeoff olacaktır.
 
-Buraya kod gelecek. 
+Bir sonraki derste Recursive Feature Elimination (RFE) tekniğini göreceğiz. 
 
-Bir sonraki derste Recursive Feature Elimination (RFE) tekniğini göreceğiz. İyi çalışmalar dilerim.
+İyi çalışmalar dilerim.
