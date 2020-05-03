@@ -1,5 +1,6 @@
 # Feature Importance
-<img src="../assets/feature_importance.png" width="400">
+
+<img align="center" src="../assets/feature_importance.png" width="400">
 
 Genellikle bir makine öğrenmesi projesine başlarken çalışacağınız veri istediğiniz formatta ve modele uygulanmaya hazır bir şekilde değildir. Farklı uzantılarda ve yapılarda olabilir. (CSV, JSON, Excel veya DB etc.) Ayrıca veriseti kendi içerisinde eksik, anormal veya gereksiz bilgiler de içeriyor olabilir. Aynı zamanda modelinizde kullanacağınız veriye ön hazırlıklar yapmanız gerekebilir, örnek vermek gerekirse ölçeklendirme veya normalleştirme sayılabilir.
 
