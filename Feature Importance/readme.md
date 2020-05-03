@@ -114,7 +114,7 @@ feature_imp = pd.Series(model.feature_importances_, index= X_encoded.columns)
 feature_imp.nlargest(10).plot(kind='barh')
 ```
 
-![Feature%20Importance/Untitled.png](Feature%20Importance/Untitled.png)
+![Untitled.png](Untitled.png)
 
 Şimdi tüm kolonları kullanmak yerine sadece önemli olarak gördüğüm 4 parametreyle eğiteceim.
 
