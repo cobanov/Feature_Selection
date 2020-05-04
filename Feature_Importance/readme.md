@@ -64,7 +64,7 @@ from sklearn.metrics import classification_report,confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
 ```
 
-```jsx
+```python
 start = time.process_time()
 
 model = RandomForestClassifier(n_estimators=700).fit(X_train, y_train)
@@ -77,9 +77,9 @@ print(confusion_matrix(y_test, preds))
 print(classification_report(y_test, preds))
 ```
 
-Gördüğünüz gibi 2 saniye gibi bir sürede modelin eğitimi tamamlandı
+2 saniye gibi bir sürede modelin eğitimi tamamlandı.
 
-```jsx
+```python
 1.78125
 [[1274    0]
  [   0 1164]]
@@ -93,7 +93,7 @@ Gördüğünüz gibi 2 saniye gibi bir sürede modelin eğitimi tamamlandı
 weighted avg       1.00      1.00      1.00      2438
 ```
 
-tam bir başarı oranına sahibiz fakat burada bakacağımız konu aslında hangi niteliklerin ne kadar önemli olduğu bu yüzden. feature importance metoduyla eğitilmiş modelimin en önemli olduğunu düşündüğü 7 parametreyi görselleştiriyorum.
+Tam bir başarı oranına sahibiz fakat burada bakacağımız konu aslında hangi niteliklerin ne kadar önemli olduğu. Bu yüzden feature importance metoduyla eğitilmiş modelin en önemli olduğu 10 parametreyi görselleştiriyorum.
 
 ```python
 import matplotlib.pyplot as plt
@@ -107,9 +107,9 @@ feature_imp.nlargest(10).plot(kind='barh')
 
 ![Untitled.png](Untitled.png)
 
-Şimdi tüm kolonları kullanmak yerine sadece önemli olarak gördüğüm 4 parametreyle eğiteceim.
+Şimdi tüm kolonları kullanmak yerine sadece önemli olarak gördüğüm 4 parametreyle eğiteceğim.
 
-```jsx
+```python
 best_feat = feature_imp.nlargest(4).index.to_list()
 
 X_reduced = X_encoded[feature_imp.nlargest(4).index]
@@ -127,7 +127,7 @@ print(confusion_matrix(yr_test, rpred))
 print(classification_report(yr_test, rpred))
 ```
 
-```jsx
+```python
 0.84375
 [[1248   26]
  [  53 1111]]
@@ -141,7 +141,7 @@ print(classification_report(yr_test, rpred))
 weighted avg       0.97      0.97      0.97      2438
 ```
 
-Çok açık bir şekilde görebiliriz ki, eğitim süresi yarı yarıya inerken accuracy'den çok az kaybettik. Aslına bakarsanız bu çok küçük bir veri seti kazancımız 1 saniye kadar fakat bunu milyonlarca satıra sahip bir verisetiyle saatlerce eğittiğiniz bir model olduğunu düşünürseniz kesinlikle gireceğiniz bir tradeoff olacaktır.
+Çok açık bir şekilde görebiliriz ki, eğitim süresi yarı yarıya inerken accuracy'den çok az kaybettik. Aslına bakarsanız bu çok küçük bir veriseti kazancımız 1 saniye kadar fakat bunu milyonlarca satıra sahip bir verisetiyle saatlerce eğittiğiniz bir model olduğunu düşünürseniz kesinlikle gireceğiniz bir tradeoff olacaktır.
 
 Bir sonraki derste Recursive Feature Elimination (RFE) tekniğini göreceğiz. 
 
