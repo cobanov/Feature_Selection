@@ -2,7 +2,7 @@
 
 <p align="center"><img src="assets/main_thumb.png" width="400"></p>
 
-## Projects - List of Context
+## Projects - List of Context:
 
 ### 1. Feature Importance
 
@@ -15,13 +15,13 @@
 * [In progress]()
 * [YouTube Video](https://youtube.com/MertCobanov)
 
-----
 
-## Dataset
-[Mushroom Dataset - Kaggle](https://www.kaggle.com/uciml/mushroom-classification)
-----
 
-# Projects
+## Dataset:
+* [Mushroom Dataset - Kaggle](https://www.kaggle.com/uciml/mushroom-classification)
+
+
+# Projects:
 ## 1. Feature Importance
 
 <p align="center"><img src="assets/feature_importance.png" width="400"></p>
